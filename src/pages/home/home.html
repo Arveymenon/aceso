@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ACESO</ion-title>
+    <button ion-button end menuToggle>
+        <ion-icon name="cart"></ion-icon>
+      </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="card-background-page">
+  
+  <ion-slides pager style="height:150px">
+    <ion-slide style="background-image:url('assets/imgs/images.png')"></ion-slide>
+    <ion-slide style="background-image:url('assets/imgs/download.jpg')"></ion-slide>
+    <ion-slide style="background-image:url('assets/imgs/download.jpg')"></ion-slide>
+  </ion-slides>
+
+<br>
+        <h5>Featured Categories</h5>
+        <ion-row>
+          <ion-col col-12>
+              <ion-card (click)="load()">
+                  <img src="assets/imgs/doc.jpg"/>
+                  <div class="card-title">Doctors near me</div>
+                </ion-card>
+          </ion-col>
+          <ion-col col-12>
+              <ion-card (click)="mypres()">
+                  <img src="assets/imgs/pres.png"/>
+                  <div class="card-title">
+                      Prescriptions
+                  </div> 
+                </ion-card>
+          </ion-col>
+            <ion-col col-12>
+              <ion-card>
+                  <img src="assets/imgs/buymed.png"/>
+                  <div class="card-title">
+                      Buy Medicine
+                  </div>
+                </ion-card>
+            </ion-col>
+            <ion-col col-12>
+                <ion-card>
+                    <img src="assets/imgs/docchat.jpg"/>
+                    <div class="card-title">
+                        Doc-chat
+                    </div>
+                  </ion-card>
+            </ion-col>
+          </ion-row>         
+  
+</ion-content>

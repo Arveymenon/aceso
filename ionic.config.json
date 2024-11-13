@@ -1,0 +1,7 @@
+{
+  "name": "aceso",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
